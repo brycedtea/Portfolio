@@ -1,5 +1,6 @@
 import React from 'react';
-import PicOfMe from '../chihuaha.png';
+import './about.css'
+import PicOfMe from './chihuaha.png';
 
 const AboutMe = () => {
   return (
