@@ -12,7 +12,7 @@ export const services = [
   {
     id: 2,
     icon: faAward,
-    title: 'Design',
+    title: 'Quality',
     description: 'Info',
   },
   {

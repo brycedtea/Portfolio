@@ -1,0 +1,43 @@
+/*********************** NAVBAR **************************/
+
+.logo {
+  width: 5rem;
+}
+
+nav {
+  z-index: 2;
+}
+
+/*------ MENU LINKS -------*/
+nav a.nav-link {
+  font-size: 1rem;
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+  font-family: 'Roboto Condensed';
+}
+
+nav ul li {
+  text-transform: uppercase;
+}
+
+.navbar-nav li a {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  color: var(--primary-white) !important;
+  border-top: 0.1875rem solid var(--primary-darkgrey);
+}
+
+.navbar-nav li a.active,
+.navbar-nav li a.active:focus {
+  border-top: 0.1875rem solid var(--primary-cyan);
+}
+
+.navbar-nav li a:hover {
+  border-top: 0.1875rem solid var(--primary-cyan);
+}
+
+@media (max-width: 768px) {
+  .logo {
+    width: 13rem;
+  }
+}

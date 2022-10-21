@@ -6,7 +6,7 @@
   }
   
   .services h1 {
-    color: var(--primary-cyan);
+    color: var(--primary-dark-grey);
     text-transform: uppercase;
   }
   
@@ -37,23 +37,27 @@
   }
   
   .box:hover {
-    background-color: black;
+    background-color: var(--primary-dark-grey);
     border-bottom: 0.3125rem solid var(--primary-cyan);
     cursor: pointer;
   }
   
   .box:hover .circle {
-    background-color: black;
+    background-color: var(--primary-dark-grey);
   }
   
   .box:hover .icons {
-    color: var(--primary-dark);
+    color: var(--primary-white);
   }
   
   .box:hover p {
-    color: var(--primary-dark);
+    color: var(--primary-white);
   }
 
   .services h3 {
-    color: white;
+    color: var(--primary-white);
+  }
+
+  .services p {
+    color: var(--primary-white);
   }
