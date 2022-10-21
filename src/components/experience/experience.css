@@ -3,11 +3,13 @@
     position: relative;
     padding: 3.125rem 0;
     overflow: hidden;
+    font-family: 'Roboto Condensed';
   }
   
   .experience h1 {
     text-transform: uppercase;
     color: var(--primary-dark-grey);
+    font-family: 'Roboto Condensed';
   }
   
   .experience-wrapper::before {

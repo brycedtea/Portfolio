@@ -3,6 +3,7 @@
 .header-wrapper {
     background: url(header_background.jpg) no-repeat center center/cover;
     height: 100vh;
+    font-family: 'Roboto Condensed';
   }
   
   .main-info {
@@ -35,7 +36,7 @@
     border: 1px solid var(--primary-cyan);
     text-transform: uppercase;
     border-radius: 0;
-    padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+    padding: 0.625rem;
     color: var(--primary-white);
     margin-top: 2rem;
   }
