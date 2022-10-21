@@ -4,7 +4,7 @@ import { experience } from './data'
 
 const Experience = () => {
   return (
-    <section className='experience'>
+    <section id='experience' className='experience'>
       <div className='d-flex justify-content-center my-5'>
         <h1>Work Experience</h1>
       </div>

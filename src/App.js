@@ -7,6 +7,7 @@ import AboutMe from './components/about/AboutMe';
 import Services from './components/services/Services';
 import Experience from './components/experience/Experience';
 import Portfolio from './components/portfolio/Portfolio';
+import Contact from './components/contact/Contact';
 import React from "react";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Services />
       <Experience />
       <Portfolio />
+      <Contact />
       
     </>
     

@@ -8,7 +8,7 @@ const Portfolio = () => {
   let portfolioImages = portfolioData()
 
   return (
-    <main className='portfolio-wrapper py-5'>
+    <main id='portfolio' className='portfolio-wrapper py-5'>
       <div className='container'>
         <h1 className='text-uppercase text-center py-5'>Projects</h1>
         <div className='row'>

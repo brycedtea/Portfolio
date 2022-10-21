@@ -4,7 +4,7 @@ import PicOfMe from './chihuaha.png';
 
 const AboutMe = () => {
   return (
-    <section className='container py-5 about-wrapper'>
+    <section id='about' className='container py-5 about-wrapper'>
       <div className='row'>
         <div className='col-lg-6 col-xm-12'>
           <div className='photo-wrap'>

@@ -1,0 +1,9 @@
+.contact-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.about-heading {
+    color: var(--primary-dark-grey);
+    font-family: 'Roboto Condensed';
+  }
