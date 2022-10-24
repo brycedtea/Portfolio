@@ -6,7 +6,7 @@
     font-family: 'Roboto Condensed';
   }
   
-  .experience h1 {
+  .experience h2 {
     text-transform: uppercase;
     color: var(--primary-dark-grey);
     font-family: 'Roboto Condensed';
@@ -20,7 +20,7 @@
     margin-left: -0.0625rem;
     width: 0.125rem;
     height: 100%;
-    background: var(--primary-cyan);
+    background: var(--primary-dark-grey);
     z-index: 1;
   }
   

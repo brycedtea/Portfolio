@@ -6,7 +6,7 @@ const Experience = () => {
   return (
     <section id='experience' className='experience'>
       <div className='d-flex justify-content-center my-5'>
-        <h1>Work Experience</h1>
+        <h2>Work Experience</h2>
       </div>
       <div className='container experience-wrapper'>
         {experience.map((item, key) => {

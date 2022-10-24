@@ -10,7 +10,7 @@ const Portfolio = () => {
   return (
     <main id='portfolio' className='portfolio-wrapper py-5'>
       <div className='container'>
-        <h1 className='text-uppercase text-center py-5'>Projects</h1>
+        <h2 className='text-uppercase text-center py-5'>Projects</h2>
         <div className='row'>
           {portfolioImages.map((item, key) => (
             <Link

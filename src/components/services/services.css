@@ -5,7 +5,7 @@
     font-family: 'Roboto Condensed';
   }
   
-  .services h1 {
+  .services h2 {
     color: var(--primary-dark-grey);
     text-transform: uppercase;
   }
