@@ -12,11 +12,11 @@ const Contact = () => {
       <div className='container'>
         <div className='text-center'>
             <h3>Email</h3>
-            <FontAwesomeIcon icon={faEnvelope} />
+            <a href="mailto: brycealvir@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
         </div>
         <div className='text-center'>
             <h3>GitHub</h3> 
-            <FontAwesomeIcon icon={faGithub} />
+            <a href="https://github.com/brycedtea" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
         </div>
       </div>
     </section>
