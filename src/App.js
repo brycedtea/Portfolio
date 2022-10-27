@@ -10,12 +10,14 @@ import Portfolio from './components/portfolio/Portfolio';
 import Reviews from './components/reviews/Reviews';
 import Contact from './components/contact/Contact';
 import React from "react";
+import ScrollButton from './components/scrollbutton/ScrollButton';
 
 function App() {
  
   return (
     <>
       <Particles />
+      <ScrollButton />
       <Navbar />
       <Header />
       <AboutMe />
