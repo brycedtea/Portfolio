@@ -15,8 +15,10 @@ const Header = () => {
             loop
             />
             <a href="mailto: brycealvir@gmail.com" className="btn-main-offer">Contact Me</a>
+            
         </div>
     </div>
+    
   )
 }
 

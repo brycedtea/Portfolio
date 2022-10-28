@@ -26,6 +26,36 @@ app.post('/insert', async (req, res)=> {
     }
 });
 
+app.get('/read', async (req, res)=> {
+   CommentModel.find({}, (err,result)=> {
+    if (err) {
+        res.send(err)
+    } 
+    res.send(result)
+   })
+});
+
+app.put('/update', async (req, res)=> {
+    const newUserComment = req.body.newUserComment;
+    const id = req.body.id;
+
+    try {
+        await CommentModel.findById(id, (err, updatedComment)=> {
+            updatedComment.userComment = newUserComment;
+            updatedComment.save();
+            res.send('updated');
+        })
+    } catch(err) {
+        console.log(err);
+    }
+});
+
+app.delete("/delete/:id", async (req, res)=> {
+    const id = req.params.id;
+    
+    await CommentModel.findByIdAndRemove(id).exec();
+    res.send('deleted');
+});
 
 app.listen(3001, ()=> {
     console.log('Server running on port 3001')

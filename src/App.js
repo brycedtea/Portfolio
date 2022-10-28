@@ -8,16 +8,19 @@ import Services from './components/services/Services';
 import Experience from './components/experience/Experience';
 import Portfolio from './components/portfolio/Portfolio';
 import Reviews from './components/reviews/Reviews';
-import Contact from './components/contact/Contact';
+import Socials from './components/socials/Socials';
 import React from "react";
 import ScrollButton from './components/scrollbutton/ScrollButton';
-
+import '@uiw/github-corners';
+/*<github-corners target="__blank" position="fixed" href="https://github.com/brycedtea"></github-corners>*/
+<Navbar />
 function App() {
  
   return (
     <>
       <Particles />
       <ScrollButton />
+      
       <Navbar />
       <Header />
       <AboutMe />
@@ -25,7 +28,7 @@ function App() {
       <Experience />
       <Portfolio />
       <Reviews />
-      <Contact />
+      <Socials />
     </>
     
   );
