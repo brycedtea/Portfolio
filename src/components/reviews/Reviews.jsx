@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Axios from 'axios';
+import './reviews.css'
 
 
 const Reviews = () => {
@@ -38,26 +39,31 @@ const Reviews = () => {
   return (
     <section id='reviews' className='reviews-wrapper text-center'>
       <h2 className='py-5'>Reviews</h2>
-      <div>
-        Leave a review!
-      </div>
-      <div>
-        <label>Name:</label>
-        <input type="text" onChange={(event) => {setUserName(event.target.value)}}/>
-        <label>Review:</label>
-        <input type="text" onChange={(event) => {setUserComment(event.target.value)}}/>
-        <button type="button" class="btn btn-primary" onClick={addToList}>Leave a Review</button>
-      </div>
+      <h3>Leave a Review</h3>
+      <form>
+        <div className="form-group">
+          <label>Name:</label>
+          <input type="text" onChange={(event) => {setUserName(event.target.value)}}/>
+        </div>
+        <div className="form-group">
+          <label>Review:</label>
+          <input type="text" onChange={(event) => {setUserComment(event.target.value)}}/>
+        </div>
+          <button type="button" class="btn btn-primary" onClick={addToList}>Leave a Review</button>
+      </form>
 
-      <h2>User Reviews</h2>
+    
       {commentList.map((val, key)=> {
         return (
-          <div key={key} className="comments">
-            <h5>{val.userName}</h5>
-            <h5>{val.userComment}</h5>
+          <div key={key} className="card" id='card'>
+          <img></img>
+            <div className="card-body">
+            <h5 className="card-title">{val.userName}</h5>
+            <p className="card-text">{val.userComment}</p>
             <input type="text" placeholder="Edit Comment" onChange={(event) => {setNewUserComment(event.target.value)}}/>
-            <button onClick={()=> updateComment(val._id)}>Update</button>
-            <button onClick={()=> deleteComment(val._id)}>Delete</button>
+            <button class="btn btn-secondary" onClick={()=> updateComment(val._id)}>Update</button>
+            <button class="btn btn-danger" onClick={()=> deleteComment(val._id)}>Delete</button>
+            </div>
           </div>
         );
       })}

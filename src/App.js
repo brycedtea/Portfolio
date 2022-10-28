@@ -12,15 +12,15 @@ import Socials from './components/socials/Socials';
 import React from "react";
 import ScrollButton from './components/scrollbutton/ScrollButton';
 import '@uiw/github-corners';
-/*<github-corners target="__blank" position="fixed" href="https://github.com/brycedtea"></github-corners>*/
-<Navbar />
+
+
 function App() {
  
   return (
     <>
       <Particles />
       <ScrollButton />
-      
+      <github-corners target="__blank" position="fixed" href="https://github.com/brycedtea"></github-corners>
       <Navbar />
       <Header />
       <AboutMe />
