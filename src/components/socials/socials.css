@@ -1,3 +1,31 @@
-#icon {
-    size: 200px;
+.icon1 {
+    max-width: 160px;
 }
+.icon2 {
+    max-width: 80px;
+}
+.icon3 {
+    max-width: 160px;
+}
+
+
+.socials-wrapper {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+  }
+  .socials {
+    display: inline-block;
+    border: none;
+    padding: 1rem;
+    vertical-align: middle;
+  }
+  #socials {
+    background-color: black;
+  }
+
+  .socials-title {
+    color: white;
+  }

@@ -35,7 +35,7 @@
   .btn-main-offer {
     border: 1px solid var(--primary-cyan);
     text-transform: uppercase;
-    border-radius: 0;
+    border-radius: 10px;
     padding: 0.625rem;
     color: var(--primary-white);
     margin-top: 2rem;
@@ -43,7 +43,7 @@
   
   .btn-main-offer:hover {
     text-decoration: none;
-    color: var(--primary-white);
+    color: var(--primary-white) !important;
     background-color: var(--primary-cyan);
     transition: 0.2s ease-in-out;
   }

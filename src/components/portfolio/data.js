@@ -1,34 +1,34 @@
-import cityGuide from './images/city-guide-app.png'
-import portfolio from './images/portfolio.png'
-import taskManager from './images/task-manager.png'
+import hthaiml from './images/hthaiml.png'
+import workout from './images/workout-tracker.png'
+import dragon from './images/dragon.png'
 
 const PORTFOLIODATA = [
   {
     id: 1,
-    img: cityGuide,
-    title: 'Workout Tracker',
+    img: hthaiml,
+    title: 'REST-rant',
     description:
-      'This is a project of City Guide App. In this project shown how to create simple app with React and Bootstrap',
-    github: 'https://github.com/8020Coding/city-guide-app',
-    demo: 'https://city-guide-app-project.herokuapp.com/',
+      'This is a restaurant review website similar to YELP. This was created with React and features full CRUD functionality.',
+    github: 'https://github.com/brycedtea/project-REST-rant',
+    demo: 'Coming soon',
   },
   {
     id: 2,
-    img: portfolio,
-    title: 'REST-rant',
+    img: workout,
+    title: 'Workout Tracker',
     description:
-      'Simple application where shown how to implement React and Material-UI to build simple portfolio project',
-    github: 'https://github.com/8020Coding/portfilio',
-    demo: 'https://portfolio-rea-and-material-ui.herokuapp.com/',
+      'This is a workout tracker app built with the MERN stack. This was created with React/Bootstrap and features full CRUD functionality ',
+    github: 'https://github.com/0scarC/KSTEC-MP2/tree/JulianNew',
+    demo: 'Coming soon',
   },
   {
     id: 3,
-    img: taskManager,
-    title: 'In Progress',
+    img: dragon,
+    title: 'Tale of the Dragon',
     description:
-      'In this project I show how to create simple Task Manager using React and Redux to manage the state. Here is shown how to create, update and delete tasks.',
-    github: 'https://github.com/8020Coding/task-manager',
-    demo: 'https://react-redux-task-manager.herokuapp.com/',
+      'This is a web game built with vanilla JavaScript. It was inspired by one of my favorite childhood games: Snake (originally played on the Nokia cell phone). ',
+    github: 'https://github.com/brycedtea/milestone-project-1-dragon-game',
+    demo: 'Coming soon',
   },
 ]
 

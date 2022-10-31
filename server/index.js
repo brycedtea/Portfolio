@@ -43,11 +43,13 @@ app.put('/update', async (req, res)=> {
         await CommentModel.findById(id, (err, updatedComment)=> {
             updatedComment.userComment = newUserComment;
             updatedComment.save();
-            res.send('updated');
+            
         })
     } catch(err) {
         console.log(err);
     }
+    
+    res.send('updated');
 });
 
 app.delete("/delete/:id", async (req, res)=> {

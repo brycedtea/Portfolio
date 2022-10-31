@@ -21,35 +21,47 @@ const Reviews = () => {
     Axios.post('http://localhost:3001/insert', {
       userName: userName, 
       userComment: userComment,
+    }).then(()=> {
+      setCommentList([...commentList, { userName: userName, userComment: userComment}]);
     });
   };
 
   const updateComment = (id)=> {
     Axios.put('http://localhost:3001/update', {
       id: id, 
-      newUserComment: newUserComment
+      newUserComment: newUserComment,
+    }).then(()=> {
+      setCommentList(commentList.map((val)=> {
+        return val._id == id ? {_id: id, userName: val.userName, userComment: newUserComment} : val;
+      }))
     });
   };
 
   const deleteComment = (id)=> {
-    Axios.delete(`http://localhost:3001/delete/${id}`);
+    Axios.delete(`http://localhost:3001/delete/${id}`).then(()=> {
+      setCommentList(
+        commentList.filter((val)=> {
+          return val._id != id;
+        })
+      );
+    });
   };
 
 
   return (
     <section id='reviews' className='reviews-wrapper text-center'>
-      <h2 className='py-5'>Reviews</h2>
+      <h2 className='review-title py-5'>Reviews</h2>
       <h3>Leave a Review</h3>
       <form>
         <div className="form-group">
           <label>Name:</label>
-          <input type="text" onChange={(event) => {setUserName(event.target.value)}}/>
+          <input id="name-field" type="text" placeholder="First name" onChange={(event) => {setUserName(event.target.value)}}/>
         </div>
         <div className="form-group">
           <label>Review:</label>
-          <input type="text" onChange={(event) => {setUserComment(event.target.value)}}/>
+          <textarea id="review-field" type="text" placeholder="Leave your comment here" onChange={(event) => {setUserComment(event.target.value)}}></textarea>
         </div>
-          <button type="button" class="btn btn-primary" onClick={addToList}>Leave a Review</button>
+          <button id='review-button' type="button" class="btn btn-primary" onClick={addToList}>Leave a Review</button>
       </form>
 
     
