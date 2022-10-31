@@ -3,6 +3,7 @@ const mongoose = require('mongoose')
 const cors = require('cors')
 const app = express();
 const CommentModel = require("./models/Comment")
+require('dotenv').config();
 
 app.use(express.json());
 app.use(cors());
@@ -59,6 +60,6 @@ app.delete("/delete/:id", async (req, res)=> {
     res.send('deleted');
 });
 
-app.listen(3001, ()=> {
-    console.log('Server running on port 3001')
+app.listen(process.env.PORT || 3001, ()=> {
+    console.log('You are connected!')
 });

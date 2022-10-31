@@ -73,8 +73,8 @@ const Reviews = () => {
             <h5 className="card-title">{val.userName}</h5>
             <p className="card-text">{val.userComment}</p>
             <input type="text" placeholder="Edit Comment" onChange={(event) => {setNewUserComment(event.target.value)}}/>
-            <button class="btn btn-secondary" onClick={()=> updateComment(val._id)}>Update</button>
-            <button class="btn btn-danger" onClick={()=> deleteComment(val._id)}>Delete</button>
+            <button id="update-button" class="btn btn-secondary" onClick={()=> updateComment(val._id)}>Update</button>
+            <button id="delete-button" class="btn btn-danger" onClick={()=> deleteComment(val._id)}>Delete</button>
             </div>
           </div>
         );

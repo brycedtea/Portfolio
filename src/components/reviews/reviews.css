@@ -5,12 +5,13 @@
     min-width: 300px;
     max-width: 320px;
     text-align:center;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
     background-color: var(--primary-white);
     display: inline-block;
+
 }
 .reviews-wrapper{
     background-color: white;
@@ -32,4 +33,19 @@
 
 .form-group {
     padding: 10px;
+}
+
+#review-button {
+    background-color: var(--primary-cyan);
+    border: var(--primary-cyan);
+}
+
+#update-button {
+    background-color: var(--primary-cyan);
+    border: var(--primary-cyan);
+}
+
+#delete-button {
+    background-color: var(--primary-dark-grey);
+    border: var(--primary-dark-grey);
 }

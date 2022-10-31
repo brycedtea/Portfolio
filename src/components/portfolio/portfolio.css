@@ -24,11 +24,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: black;
+    background: #2d2d2d;
     padding: 13rem;
     width: 60rem;
     height: 30rem;
     z-index: 1010;
+    border-radius: 10px;
   }
   
   .portfolio-info h2 {
