@@ -12,7 +12,7 @@ https://brycedtea.com/
 ### Getting Started
 * Fork Branch on GitHub
 * Clone Repo
-* NPM i --legacy-peer-deps
+* Run npm i --legacy-peer-deps
 * CD into Client directory and run NPM start
 * CD into Server directory and run nodemon
 
