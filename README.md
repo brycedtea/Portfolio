@@ -1,8 +1,6 @@
 READ ME IN PROGRESS
 
-# Bryce's Portfolio
-
-## MERN Stack Developer Portfolio
+# MERN Stack Developer Portfolio
 
 ### Description
 This is the latest version of my developer portfolio built with the React and Bootstrap. This is a Single-page application that is packed with a ton of eye-catching feautures. This website is connected to a MongoDB database and features full CRUD functionality. Being a junior developer inspired me to create a portfolio that stands out and accurately respresents who I am.
