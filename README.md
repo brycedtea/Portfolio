@@ -48,7 +48,7 @@ https://brycedtea.com/
 
 
 
-#### Version History
+### Version History
 - gitignore
 - rearranged folders
 - rearranged files
@@ -70,14 +70,14 @@ https://brycedtea.com/
 - Project setup
 - Initialize project using Create React App
 
-#### Bugs
+### Bugs
 
 * Addressing bug that allows users to edit/delete the comment of others.
 
-#### License
+### License
 This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
 
-#### Acknowledgments
+### Acknowledgments
 * 80/20Coding 
 * PedroTech
 * Web Dev Simplified
