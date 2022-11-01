@@ -1,17 +1,20 @@
-# Portfolio
-Simple overview of use/purpose.
+READ ME IN PROGRESS
 
-Description
+# Portfolio
+
+## Full Stack MERN Portfolio
+
+### Description
 An in-depth paragraph about your project and overview of use.
 
-Getting Started
-Dependencies
-Describe any prerequisites, libraries, OS version, etc., needed before installing program.
+### Getting Started
+### Dependencies
+### Describe any prerequisites, libraries, OS version, etc., needed before installing program.
 ex. Windows 10
-Installing
+### Installing
 How/where to download your program
 Any modifications needed to be made to files/folders
-Executing program
+### Executing program
 How to run the program
 Step-by-step bullets
 code blocks for commands
@@ -42,4 +45,10 @@ PurpleBooth
 dbader
 zenorocha
 fvcproductions
+
+
+Describes the inspiration for the application.
+Describes how to use the application.
+Lists the technologies used to build the application.
+Addresses any outstanding bugs or unfinished functionality.
 
