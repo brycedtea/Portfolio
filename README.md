@@ -1,6 +1,6 @@
 READ ME IN PROGRESS
 
-# Portfolio
+# Bryce's Portfolio
 
 ## MERN Stack Developer Portfolio
 
