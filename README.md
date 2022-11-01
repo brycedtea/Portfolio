@@ -2,12 +2,23 @@ READ ME IN PROGRESS
 
 # Portfolio
 
-## Full Stack MERN Portfolio
+## MERN Stack Developer Portfolio
 
 ### Description
-An in-depth paragraph about your project and overview of use.
+This is the latest version of my developer portfolio built with the React and Bootstrap. This is a Single-page application that is packed with a ton of eye-catching feautures. This website is connected to a MongoDB database and features full CRUD functionality. Being a junior developer inspired me to create a portfolio that stands out and accurately respresents who I am.
+
+### Demo
+https://brycedtea.com/
+
+### Prerequisites
+* You’ll need to have Node 14.0.0 or later version on your local development machine.
 
 ### Getting Started
+* Fork Branch on GitHub
+* Clone Repo
+* NPM i --legacy-peer-deps
+* CD into Client directory and run NPM start
+* CD into Server directory and run nodemon
 
 ### Dependencies
 * @fortawesome/fontawesome-svg-core": "^6.2.0
@@ -35,46 +46,18 @@ An in-depth paragraph about your project and overview of use.
 * tsparticles": "^2.3.4
 * web-vitals": "^2.1.4
 
-### Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-ex. Windows 10
-### Installing
-How/where to download your program
-Any modifications needed to be made to files/folders
-### Executing program
-How to run the program
-Step-by-step bullets
-code blocks for commands
-Help
-Any advise for common problems or issues.
 
-command to run if program contains helper info
-Authors
-Contributors names and contact info
 
-ex. Dominique Pizzie
-ex. @DomPizzie
+### Version History
+* Addressing bug that allows users to edit/delete the comment of others.
 
-Version History
-0.2
-Various bug fixes and optimizations
-See commit change or See release history
-0.1
-Initial Release
-License
+
+
+### License
 This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
 
-Acknowledgments
-Inspiration, code snippets, etc.
-
-awesome-readme
-PurpleBooth
-dbader
-zenorocha
-fvcproductions
-
-
-Describes the inspiration for the application.
-Describes how to use the application.
-Lists the technologies used to build the application.
-Addresses any outstanding bugs or unfinished functionality.
+### Acknowledgments
+* 80/20Coding 
+* PedroTech
+* Web Dev Simplified
 
