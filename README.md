@@ -75,7 +75,7 @@ https://brycedtea.com/
 * Addressing bug that allows users to edit/delete the comment of others.
 
 ### License
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This project is licensed under the MIT License - see the LICENSE.md file for details
 
 ### Acknowledgments
 * 80/20Coding 
