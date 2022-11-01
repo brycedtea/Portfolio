@@ -1,5 +1,3 @@
-READ ME IN PROGRESS
-
 # MERN Stack Developer Portfolio
 
 ### Description
