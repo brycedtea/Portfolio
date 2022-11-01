@@ -49,9 +49,28 @@ https://brycedtea.com/
 
 
 ### Version History
+- gitignore
+- rearranged folders
+- rearranged files
+- separated frontend and backend folders
+- commit
+- added socials and edited styling on services
+- added comment box styling
+- Added CRUD functionality
+- added custom logo, changed header background, changed navbar color
+- building backend, post route complete
+- added contact section
+- added react scrolling to navbar
+- added portfolio and styling
+- added work experience and data
+- added services component
+- added about me section
+- added tsparticles
+- added navbar
+- Project setup
+- Initialize project using Create React App
+
 * Addressing bug that allows users to edit/delete the comment of others.
-
-
 
 ### License
 This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
