@@ -1,0 +1,27 @@
+.about-wrapper {
+    z-index: 3;
+    font-family: 'Roboto Condensed';
+    background-color: black;
+    max-width: fit-content;
+  }
+  
+  .profile-img {
+    width: 16rem;
+    border-radius: 50%;
+    padding: 0.3rem;
+    border: 0.0625rem solid var(--primary-cyan);
+  }
+  
+  .photo-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-heading {
+    color: var(--primary-cyan);
+  }
+
+  .about-info {
+    color: white;
+  }

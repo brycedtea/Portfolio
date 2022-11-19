@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# MERN Stack Developer Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Description
+This is the latest version of my developer portfolio built with the React and Bootstrap. This is a Single-page application that is packed with a ton of eye-catching feautures. This website's review section is connected to a MongoDB database and features full CRUD functionality. Being a junior developer inspired me to create a portfolio that stands out and accurately respresents who I am.
 
-## Available Scripts
+### Demo
+https://brycedtea.com/
 
-In the project directory, you can run:
+### Prerequisites
+* You’ll need to have Node 14.0.0 or later version on your local development machine.
 
-### `npm start`
+### Getting Started
+* Fork Branch on GitHub
+* Clone Repo
+* Run npm i --legacy-peer-deps
+* CD into Client directory and run NPM start
+* CD into Server directory and run nodemon
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Dependencies
+* @fortawesome/fontawesome-svg-core": "^6.2.0
+* @fortawesome/free-brands-svg-icons": "^6.2.0
+* @fortawesome/free-solid-svg-icons": "^6.2.0
+* @fortawesome/react-fontawesome": "^0.2.0
+* @testing-library/jest-dom": "^5.16.5
+* @testing-library/react": "^13.4.0
+* @testing-library/user-event": "^13.5.0
+* @uiw/github-corners": "^1.5.15
+* axios": "^1.1.3
+* bootstrap": "^5.2.2
+* express": "^4.18.2
+* mongoose": "^6.7.0
+* react": "^18.2.0
+* react-dom": "^18.2.0
+* react-github-corner": "^2.5.0
+* react-icons": "^4.6.0
+* react-router-dom": "^6.4.2
+* react-scripts": "5.0.1
+* react-scroll": "^1.8.8
+* react-tsparticles": "^2.3.3
+* react-typed": "^1.2.0
+* styled-components": "^5.3.6
+* tsparticles": "^2.3.4
+* web-vitals": "^2.1.4
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Version History
+- gitignore
+- rearranged folders
+- rearranged files
+- separated frontend and backend folders
+- commit
+- added socials and edited styling on services
+- added comment box styling
+- Added CRUD functionality
+- added custom logo, changed header background, changed navbar color
+- building backend, post route complete
+- added contact section
+- added react scrolling to navbar
+- added portfolio and styling
+- added work experience and data
+- added services component
+- added about me section
+- added tsparticles
+- added navbar
+- Project setup
+- Initialize project using Create React App
 
-### `npm run build`
+### Bugs
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Addressing a bug that allows users to edit/delete the comment of others.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### License
+This project is licensed under the MIT License - see the LICENSE.md file for details
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Acknowledgments
+* 80/20Coding 
+* PedroTech
+* Web Dev Simplified
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

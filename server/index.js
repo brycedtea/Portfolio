@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(cors());
 
 
-mongoose.connect('mongodb+srv://newuser:a1Buqr8ws0uuCLng@crud.fnkrnu4.mongodb.net/comments?retryWrites=true&w=majority', {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://newuser:a1Buqr8ws0uuCLng@crud.fnkrnu4.mongodb.net/comments?retryWrites=true&w=majority', {
     useNewUrlParser: true,
 });
 
@@ -55,11 +55,13 @@ app.put('/update', async (req, res)=> {
 
 app.delete("/delete/:id", async (req, res)=> {
     const id = req.params.id;
-    
-    await CommentModel.findByIdAndRemove(id).exec();
+    await CommentModel.findByIdAndRemove(id).exec()
     res.send('deleted');
 });
+
 
 app.listen(process.env.PORT || 3001, ()=> {
     console.log('You are connected!')
 });
+
+

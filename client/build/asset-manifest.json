@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e0ce4ba3.css",
+    "main.js": "/static/js/main.fbe0b4f7.js",
+    "static/js/787.1f11dfe9.chunk.js": "/static/js/787.1f11dfe9.chunk.js",
+    "static/media/hthaiml.png": "/static/media/hthaiml.df0fe4ac5d458ff123ee.png",
+    "static/media/workout-tracker.png": "/static/media/workout-tracker.617d38e59fb3d7f37008.png",
+    "static/media/dragon.png": "/static/media/dragon.cf24bf59e84019a36e38.png",
+    "static/media/header_background.jpg": "/static/media/header_background.7f5552f3dcd2d08b76de.jpg",
+    "static/media/chihuaha.png": "/static/media/chihuaha.2c46430a88d2b7dc7cf3.png",
+    "static/media/Instagram-Logo.png": "/static/media/Instagram-Logo.502f1a45855162babf57.png",
+    "static/media/logo.png": "/static/media/logo.1b8cc45285d32535fd5f.png",
+    "static/media/Discord.png": "/static/media/Discord.6b1207b760c6fc8861c6.png",
+    "index.html": "/index.html",
+    "main.e0ce4ba3.css.map": "/static/css/main.e0ce4ba3.css.map",
+    "main.fbe0b4f7.js.map": "/static/js/main.fbe0b4f7.js.map",
+    "787.1f11dfe9.chunk.js.map": "/static/js/787.1f11dfe9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0ce4ba3.css",
+    "static/js/main.fbe0b4f7.js"
+  ]
+}

@@ -1,0 +1,86 @@
+#portfolio {
+  background-color: black;
+}
+.portfolio-img {
+    max-width: 400px;
+    max-height: 250px;
+    min-width: 300px;
+    min-height: 250px;
+    border: 0.0625rem solid var(--primary-dark-grey);
+    padding: 10px;
+    box-shadow: inset 0 0 0.625rem 0 rgba(0, 0, 0, 1);
+    border-radius: 10px;
+  }
+  
+  .portfolio-img:hover {
+    border: 0.0625rem solid var(--primary-cyan);
+    box-shadow: inset 0 0 1.25rem 0 rgba(0, 0, 0, 1);
+    cursor: pointer;
+  }
+  
+  .portfolio-info {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #28282B;
+    padding: 13rem;
+    width: 60rem;
+    height: 30rem;
+    z-index: 1010;
+    border-radius: 10px;
+  }
+  
+  .portfolio-info h2 {
+    color: var(--primary-white);
+  }
+  
+  .portfolio-info img {
+    width: 80%;
+  }
+  
+  .portfolio-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 60%;
+    background: black;
+    z-index: 1000;
+  }
+  
+  .cancelIcon {
+    margin-left: 30rem;
+    color: var(--primary-cyan) !important;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+  }
+  
+  .cancelIcon:hover {
+    color: var(--primary-white) !important;
+    cursor: pointer;
+  }
+  
+  /******* MEDIA ******/
+  @media (max-width: 57rem) {
+    .cancelIcon {
+      margin-left: 0;
+    }
+  
+    .portfolio-info img {
+      width: 60% !important;
+    }
+  
+    .portfolio-info p {
+      padding: 0 6rem !important;
+    }
+  }
+
+  a{
+    color: var(--primary-cyan) !important;
+  }
