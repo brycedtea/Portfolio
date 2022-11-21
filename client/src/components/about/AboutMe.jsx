@@ -11,7 +11,7 @@ const AboutMe = () => {
             <img
               className='profile-img'
               src={PicOfMe}
-              alt='Picture of Author'
+              alt='Author'
             />
           </div>
         </div>

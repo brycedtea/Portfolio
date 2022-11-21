@@ -10,7 +10,7 @@ const Experience = () => {
       </div>
       <div className='container experience-wrapper'>
         {experience.map((item, key) => {
-          if (item.id % 2 != 1) {
+          if (item.id % 2 !== 1) {
             return (
               <div className='timeline-block timeline-block-right' key={key}>
                 <div className='marker'></div>

@@ -17,10 +17,10 @@ const PortfolioInfo = () => {
         <h2>{portfolioItemId.title}</h2>
         <img src={portfolioItemId.img} alt={portfolioItemId.title} />
         <p style={{ color: 'white' }}>{portfolioItemId.description}</p>
-        <a href={portfolioItemId.github} target='_blank'>
+        <a href={portfolioItemId.github} target='_blank' rel="noreferrer" >
           GITHUB: {portfolioItemId.title}
         </a>
-        <a href={portfolioItemId.demo} target='_blank'>
+        <a href={portfolioItemId.demo} target='_blank' rel="noreferrer">
           DEMO: {portfolioItemId.title}
         </a>
       </div>

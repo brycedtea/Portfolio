@@ -7,7 +7,8 @@ import AboutMe from './components/about/AboutMe';
 import Services from './components/services/Services';
 import Experience from './components/experience/Experience';
 import Portfolio from './components/portfolio/Portfolio';
-import Reviews from './components/reviews/Reviews';
+import Testimonials from './components/testimonials/Testimonials'
+/*import Reviews from './components/reviews/Reviews';*/
 import Socials from './components/socials/Socials';
 import React from "react";
 import ScrollButton from './components/scrollbutton/ScrollButton';
@@ -28,7 +29,7 @@ function App() {
       <Services />
       <Experience />
       <Portfolio />
-      <Reviews />
+      <Testimonials />
       <Socials />
     </>
     
