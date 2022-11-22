@@ -1,15 +1,15 @@
 .testimonials {
-    background-image: url(testimonials-bg.jpg);
-    background: cover;
+    background-image: url(abstract.jpg);
     background-color: black;
+    width: 100%;
+    height: auto;
     text-align: center;
-    padding-bottom: 4rem;
-    margin-bottom: 0;
+    padding-bottom: 1px;
     width: 100%;
   }
   
   .testimonials h2 {
-    padding: 3rem 0;
+    padding: 2rem 0;
   }
   
   .testimonials-content {
@@ -36,7 +36,7 @@
   }
   
   .myCarousel h3 {
-    color: var(--primary-orange);
+    color: var(--primary-cyan);
     font-weight: 600;
     text-transform: uppercase;
     padding-top: 1rem;
@@ -51,4 +51,8 @@
     background-color: transparent !important;
     height: 100% !important;
     padding-top: 2rem;
+  }
+
+  .test-image {
+    border-radius: 50%;
   }

@@ -41,13 +41,12 @@
   
   .box:hover {
     background-color: var(--primary-cyan);
-    border-bottom: 0.3125rem solid white;
     cursor: pointer;
     opacity: 100%;
   }
   
   .box:hover .circle {
-    background-color: white;
+    background-color: var(--primary-dark-grey);
   }
   
   .box:hover .icons {
@@ -55,11 +54,11 @@
   }
   
   .box:hover p {
-    color: var(--primary-white);
+    color: var(--primary-dark-grey);
   }
 
   .box:hover h3 {
-    color: var(--primary-white);
+    color: var(--primary-dark-grey);
   }
   .services h3 {
     color: var(--primary-white);

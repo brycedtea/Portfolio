@@ -16,9 +16,10 @@ const TestimonialsCarousel = () => {
     >
       {testimonialsInfo.map((item) => (
         <div>
-          <img src={item.img} alt={item.name} />
+          <img className='test-image' src={item.img} alt={item.name} />
           <div className='myCarousel'>
             <h3>{item.name}</h3>
+            <h6>{item.title}</h6>
             <p>{item.review}</p>
           </div>
         </div>

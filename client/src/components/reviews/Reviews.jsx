@@ -50,7 +50,7 @@ const Reviews = () => {
 
 
   return (
-    <section id='reviews' className='reviews-wrapper text-center'>
+    <section className='reviews-wrapper text-center'>
       <h2 className='review-title py-5'>Reviews</h2>
       <h3>Leave a Review</h3>
       <form>
