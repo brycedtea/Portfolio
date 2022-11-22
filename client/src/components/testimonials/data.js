@@ -5,19 +5,20 @@ import avatar3 from './avatars/avatar-3.png'
 import avatar4 from './avatars/avatar-4.png'
 import dev from './avatars/dev.jpg'
 import kris from './avatars/kris.jpg'
+import dan from './avatars/dan.jpg'
 
 export const testimonialsInfo = [
   {
-    img: dev,
-    name: 'Devenn Viray',
-    title: 'IT Support Specialist at The Linde Group',
+    img: avatar1,
+    name: 'John Doe 1',
+    title: 'Colleague',
     review:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ratione sequi saepe dicta blanditiis, molestias eum excepturi quod fugiat veniam!',
   },
   {
-    img: kris,
-    name: 'Kris Huynh',
-    title: 'VP Technical Services at ComputerCare',
+    img: avatar2,
+    name: 'Jane Doe 2',
+    title: 'Colleague',
     review:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ratione sequi saepe dicta blanditiis, molestias eum excepturi quod fugiat veniam!',
   },
